@@ -5,19 +5,19 @@
 
 
 * {
-	-webkit-box-sizing: border-box;
-	   -moz-box-sizing: border-box;
-	        box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 ::-moz-selection {
-	background: #000;
-	text-shadow: none;
+  background: #000;
+  text-shadow: none;
 }
 
 ::selection {
-	background: #000;
-	text-shadow: none;
+  background: #000;
+  text-shadow: none;
 }
 
 
@@ -29,67 +29,67 @@
 html, body { height: 100%; }
 
 html {
-	background-color: black;
-	background-image: url("background.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-color: black;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body {
-	color: white;
-	font-family: Codystar, Helvetica, sans-serif;
-	font-size: 3em;
-	line-height: 1;
-	margin: 0;
-	padding: 0;
-	text-shadow: 2px 2px 0 black;
+  color: white;
+  font-family: Codystar, Helvetica, sans-serif;
+  font-size: 3em;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  text-shadow: 2px 2px 0 black;
 }
 
 
 #title {
-	color: white;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	margin: 0;
-	width: 100%;
-	text-align: right;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  text-align: right;
 }
 
 #title small {
-	font-size: 50%;
-	letter-spacing: 0.5em;
+  font-size: 50%;
+  letter-spacing: 0.5em;
 }
 
 
 .digits {
-	background: rgba(0, 0, 0, 0.3);
-	color: white;
-	padding: 0.5em 0;
-	text-shadow: none;
-	width: 40%;
-	-webkit-transform: rotate(-5deg);
-	   -moz-transform: rotate(-5deg);
-	        transform: rotate(-5deg);
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  padding: 0.5em 0;
+  text-shadow: none;
+  width: 40%;
+  -webkit-transform: rotate(-5deg);
+     -moz-transform: rotate(-5deg);
+          transform: rotate(-5deg);
 }
 
 .num {
-	display: inline-block;
-	font-family: Consolas, monospace;
-	font-size: 160%;
-	min-width: 2em;
-	text-align: right;
+  display: inline-block;
+  font-family: Consolas, monospace;
+  font-size: 160%;
+  min-width: 2em;
+  text-align: right;
 }
 
 
 .colophon {
-	color: #ddd;
-	font: normal 33% Arial, sans-serif;
-	position: fixed;
-	right: 1em;
-	top: 1em;
-	text-shadow: none;
-	text-align: right;
+  color: #ddd;
+  font: normal 33% Arial, sans-serif;
+  position: fixed;
+  right: 1em;
+  top: 1em;
+  text-shadow: none;
+  text-align: right;
 }
 
 .colophon a { color: #ccc; text-decoration: none; }
@@ -101,17 +101,17 @@ body {
    ============================================================ */
 
 @media (max-width: 1188px) {
-	.digits { width: 70%; }
+  .digits { width: 70%; }
 }
 
 @media (min-width: 1224px) {
-	.digits { width: 60%; }
+  .digits { width: 60%; }
 }
 
 @media (min-width: 1360px) {
-	.digits { width: 45%; }
+  .digits { width: 45%; }
 }
 
 @media (max-height: 720px) {
-	.digits { width: 50%; }
+  .digits { width: 50%; }
 }

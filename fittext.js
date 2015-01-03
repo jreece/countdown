@@ -1,4 +1,4 @@
-/*!	
+/*! 
 * FitText.js 1.0 jQuery free version
 *
 * Copyright 2011, Dave Rupert http://daverupert.com 
@@ -16,8 +16,8 @@
   var addEvent = function (el, type, fn) {
     if (el.addEventListener)
       el.addEventListener(type, fn, false);
-		else
-			el.attachEvent('on'+type, fn);
+    else
+      el.attachEvent('on'+type, fn);
   };
   
   var extend = function(obj,ext){
