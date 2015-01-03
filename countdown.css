@@ -63,7 +63,7 @@ body {
 
 
 .digits {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   padding: 0.5em 0;
   text-shadow: none;
@@ -86,14 +86,24 @@ body {
   color: #ddd;
   font: normal 33% Arial, sans-serif;
   position: fixed;
-  right: 1em;
-  top: 1em;
+  right: 0;
+  top: 0;
   text-shadow: none;
   text-align: right;
 }
 
-.colophon a { color: #ccc; text-decoration: none; }
-.colophon a:hover, .colophon a:focus { color: #fff; }
+.colophon a { 
+  display: inline-block;
+  padding: 1em 2em;
+  background: rgba(0,0,0,0.3);
+  color: #ccc; 
+  text-decoration: none; 
+}
+
+.colophon a:hover, 
+.colophon a:focus { 
+  color: #fff; 
+}
 
 
 /* ============================================================
