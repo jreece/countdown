@@ -84,11 +84,12 @@ body {
 
 .colophon {
 	color: #ddd;
-	font: normal 9px Arial, sans-serif;
+	font: normal 33% Arial, sans-serif;
 	position: fixed;
 	right: 1em;
 	top: 1em;
 	text-shadow: none;
+	text-align: right;
 }
 
 .colophon a { color: #ccc; text-decoration: none; }
